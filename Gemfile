@@ -6,7 +6,7 @@ ruby '2.6.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.1.6'
 # Use Puma as the app server
-gem 'puma', '~> 3.11'
+gem 'puma', '3.9.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '5.0.6'
 # Use Uglifier as compressor for JavaScript assets
@@ -32,7 +32,7 @@ gem 'jbuilder', '2.7.0'
 # gem 'capistrano-rails', group: :development
 
 # Reduces boot times through caching; required in config/boot.rb
-
+gem 'bootsnap', '>= 1.1.0', require: false
 gem 'jquery-rails', '4.3.1'
 
 group :development, :test do
